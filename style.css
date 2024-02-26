@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+nav img {
+  height: 2rem;
+  width: 2rem;
+}
+
+nav span {
+  position: relative;
+  bottom: 0.5rem;
+}
+
+nav {
+  padding: 3rem;
+  color: rgb(158, 154, 154);
+}
+
+#clg-img {
+  background-image: url("./images/blue-bg.jpg");
+  height: 45vh;
+  width: 100vw;
+  letter-spacing: 2px;
+  padding: 6rem 10rem;
+  font-size: 25px;
+  font-family: sans;
+}
+
+.data-container {
+  background-color: rgb(221, 221, 221);
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 20%;
+  /* line-height: 1.6rem; */
+}
+
+.items {
+  height: 400px;
+  width: 370px;
+  border: 1px solid black;
+  /* padding: 1rem; */
+  margin: 1.5rem;
+}
+
+.items img {
+  width: 100%;
+}
+
+.items p,
+h1 {
+  padding: 0 1rem;
+}
+
+.items h1 {
+  padding-left: 2.7rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#float-logo {
+  float: right;
+  height: 40vh;
+  width: 30vw;
+}
+.grid {
+  overflow: auto;
+  padding-left: 5rem;
+}
+
+#form {
+  margin-top: 2rem;
+  width: 25%;
+  position: absolute;
+  left: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin: 0.65rem;
+  width: 70%;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
